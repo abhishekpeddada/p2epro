@@ -1,0 +1,308 @@
+/*For grid layout of cards */  
+  .column {
+    float: left;
+    width: 15%;
+    padding: 0 10px;
+    margin-left: 120px;
+    margin-top: 10px;
+  }
+
+  .column1 {
+    float: left;
+    width: 15%;
+    padding: 0 10px;
+    margin-top: 10px;
+  }
+  
+  .row {margin: 0 -5px;}
+  
+  .final-row{
+    margin: 0 -5px;
+    margin-top: 30px;
+  }
+  .final-row:after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /*For responsive layout*/
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  .card {
+    background-color: #ddd;
+    display: flex;
+    width: 250px;
+  }
+
+  .card1 {
+    background-color: #ddd;
+    margin-left: 120px;
+    width: 150px;
+    height: 200px;
+  }
+
+.header{
+    text-align:left;
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+  .container {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+  }
+
+  .container1 {
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+    margin-top: 30px;
+  }
+
+  .toggle-button {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .left-button {
+    transform: rotate(180deg);
+    margin-left: 10px;
+  }
+  .right-button{
+    margin-left: 10px;
+  }
+
+  .viewall {
+    padding: 10px;
+    background-color: #ddd;
+    color: #1c1b1b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 250px;
+    width: 100px;
+  }
+  .arrow{
+    color: black;
+  }
+  .topdiv{
+    background-color: white;
+    display: flex;
+  }
+  .topdiv-img{
+    align-items: right;
+    margin-left: 100px;
+    margin-top: 40px;
+  }
+  .topdiv-header{
+    margin-left: 100px;
+    font-size: 80px;
+    color: white;
+    -webkit-text-stroke: 2px yellow;
+  }
+
+  .topdiv-header-1{
+    margin-left: 100px;
+    font-size: 80px;
+    color: red;
+   
+  }
+  .explore{
+    padding: 10px;
+    background-color: yellow;
+    color: #1c1b1b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 150px;
+  }
+  .create{
+    padding: 10px;
+    background-color: white;
+    color: #1c1b1b;
+    border-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px;
+    margin-bottom: 10px;
+  }
+  .heart{
+    display: flex;
+    color: red;
+    margin-left: 20px;
+  }
+  .username{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+  }
+
+  .upper-card{
+    background-color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .lower-card{
+    background-color: white;
+  }
+  .lower-card-text{
+    margin-top: 10px;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+  .lower{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .final-card{
+    background-color: #ddd;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .bid{
+    margin-left: 5px;
+  }
+
+  .profile-card-pic {
+    width: 90px;
+    height: 90px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 5px;
+  }
+
+  .marketplace{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 120px;
+    justify-content: space-between;
+  }
+  .market-search{
+    margin-right: 100px;
+  }
+
+.anchors{
+    display: flex;
+    margin-left:60px;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-right: 60px;
+}
+.anc.active{
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: blue;
+    height: 40px;
+    width: 100px;
+    padding-top: 5px;
+}
+.anc:hover{
+    border-radius: 20px;
+    color:white;
+    background-color: blue;
+    height: 40px;
+    width: 100px;
+    padding-top: 5px;
+}
+
+.anc{
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: #ddd;
+    height: 40px;
+    width: 100px;
+    padding-top: 5px;
+}
+
+.placebid{
+    background-color: blue;
+    color:white;
+    border-radius: 50px;
+    width: 150%;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px
+}
+.placebid:hover{
+    color: white;
+}
+.placebid-div{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.view-all{
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: #ddd;
+    width: 500px;
+    height: 40px;
+}
+.column2 {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+    justify-content: space-between;
+    margin-left: 55px;
+    margin-top: 20px;
+  }
+  
+  .row1 {
+    margin: 0 -5px;
+    margin-bottom: 30px;
+}
+  
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column2 {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  .card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    width: 420px;
+    height: 400px;
+    margin-left: 60px;
+    justify-content: space-between;
+  }
+  .card-image{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
