@@ -38,6 +38,7 @@
   .social-icons{
 	padding:20px;
   text-align: center;
+  display: flex;
 }
 .social-icons a{
   color:black;
