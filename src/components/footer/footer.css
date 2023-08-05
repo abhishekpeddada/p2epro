@@ -42,7 +42,9 @@
 }
 .social-icons a{
   color:black;
-  background-color: #ddd;;
+  background-color: white;
+  padding: 7px;
+  border-radius: 7px;
   width: 100px;
   border-radius: 5px;
   line-height:30px;

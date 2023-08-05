@@ -38,6 +38,11 @@
       display: block;
       margin-bottom: 20px;
     }
+    .column2 {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
   }
   
   .card {
@@ -63,7 +68,7 @@
 .header{
     text-align:left;
     font-size: 24px;
-    margin-right: 20px;
+    margin-left: 20px;
 }
 
   .container {
@@ -292,14 +297,6 @@
     clear: both;
   }
   
-  @media screen and (max-width: 600px) {
-    .column2 {
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
-    }
-  }
-  
   .card2 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
@@ -340,6 +337,7 @@
   }
 }
 
+
 .card3 {
   width: 400px;
   height: 350px;
@@ -355,4 +353,83 @@
 }
 .card3-img{
 margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .card1 {
+    width: 110%;
+    max-width: 150px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .line{
+    display: none;
+  }
+  .market-search{
+    display: none;
+  }
+  .profile-card-pic {
+    width: 60%; 
+    height: 20%; 
+  }
+  .profile-text{
+    font-size: 10px;
+  }
+  .anchors{
+    justify-content: space-between;
+  }
+  .card1:hover > .profile-card-pic {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .final-row-container {
+    margin-left: 50px;
+  }
+
+  .final-column:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  .card3 {
+    width: 100%;
+    max-width: 400px;
+    height: 350px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .final-row-container {
+    margin-left: 10px;
+  }
+
+  .final-column {
+    width: 50%;
+    max-width: 400px;
+  }
+
+  .final-column:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .card3 {
+    width: 100%;
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .final-row-container {
+    margin-left: 0;
+  }
+
+  .final-column {
+    width: 100%;
+    max-width: 100%;
+  }
 }

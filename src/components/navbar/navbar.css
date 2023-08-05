@@ -5,7 +5,9 @@
     padding: 10px;
     background-color: white;
   }
-  
+  #myTopnav{
+    display: none;
+  }
   .navbar-left {
     display: flex;
     align-items: center;
@@ -220,3 +222,38 @@
     cursor: pointer;
   }
   
+  @media screen and (max-width: 768px) {
+    .company-logo {
+      margin-right: 10px;
+    }
+  
+    .search-bar {
+      width: 150px;
+    }
+  
+    .navbar-right {
+      display: none;
+    }
+    #myTopnav{
+      display: flex;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .navbar {
+      flex-direction: column;
+      padding: 5px;
+    }
+  
+    .navbar-left {
+      margin-bottom: 10px;
+    }
+  
+    .company-logo {
+      margin-right: 0;
+    }
+  
+    .search-bar {
+      width: 100%;
+    }
+  }

@@ -13,14 +13,14 @@ const body = () => {
     </div>
     <div className='topdiv-img'><img src = "https://i.ibb.co/SBTZgyC/dd.png" /></div>
     </div>
-  <div class="container">
-    <h1 class="header">Trending Auctions</h1>
-    <img src="https://i.ibb.co/TtGFpqj/line.png" alt="line" border="0"/>
-    <div class="toggle-button left-button"><i className='fas fa-angle-right'></i></div>
-    <div class="toggle-button right-button"><i className='fas fa-angle-right'></i></div>
+  <div className="container">
+    <h1 className="header">Trending Auctions</h1>
+    <img src="https://i.ibb.co/TtGFpqj/line.png" alt="line" border="0" className='line'/>
+    <div className="toggle-button left-button"><i className='fas fa-angle-right'></i></div>
+    <div className="toggle-button right-button"><i className='fas fa-angle-right'></i></div>
     <button className='viewall'>View All  <i className='fas fa-arrow-right arrow'></i></button>
   </div>
-<div class="row">
+<div className="row">
   <div class="column">
   <div class="card">
     <div className='upper-card'>
@@ -130,56 +130,56 @@ const body = () => {
   </div>
 </div>
 </div>
-<div class="container1">
-  <h1 class="header">our top sellers</h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://i.ibb.co/wQBg8Cq/line.jpg" alt="line" border="0"/>
-  <div class="toggle-button left-button"><i className='fas fa-angle-right'></i></div>
-  <div class="toggle-button right-button"><i className='fas fa-angle-right'></i></div>&nbsp;&nbsp;
+<div className="container1">
+  <h1 className="header">our top sellers</h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://i.ibb.co/wQBg8Cq/line.jpg" alt="line" border="0" className='line'/>
+  <div className="toggle-button left-button"><i className='fas fa-angle-right'></i></div>
+  <div className="toggle-button right-button"><i className='fas fa-angle-right'></i></div>&nbsp;&nbsp;
   <button className='viewall'>View All  <i className='fas fa-arrow-right arrow'></i></button>
 </div>
-<div class="row">
-  <div class="column1">
-    <div class="card1">
+<div className="row">
+  <div className="column1">
+    <div className="card1">
       <img className="profile-card-pic" src="https://i.ibb.co/vQSxqvQ/profile.png" alt="profile"/>
-      <b><p>Jim Sechen</p></b>
+      <b><p className='profile-text'>Jim Sechen</p></b>
       <p>$1,954</p>
     </div>
   </div>
-  <div class="column1">
-    <div class="card1">
+  <div className="column1">
+    <div className="card1">
       <img className="profile-card-pic" src="https://i.ibb.co/vQSxqvQ/profile.png" alt="profile"/>
-      <b><p>Ravi_O'Leigh</p></b>
+      <b><p className='profile-text'>Ravi_O'Leigh</p></b>
       <p>$2,008</p>
     </div>
   </div>
-  <div class="column1">
-    <div class="card1">
+  <div className="column1">
+    <div className="card1">
     <img className="profile-card-pic" src="https://i.ibb.co/vQSxqvQ/profile.png" alt="profile"/>
-    <b><p>Sue_Shei07</p></b>
+    <b><p className='profile-text'>Sue_Shei07</p></b>
     <p>$12,067</p>
   </div>
  
 </div>
-<div class="column1">
-  <div class="card1">
+<div className="column1">
+  <div className="card1">
     <img className="profile-card-pic" src="https://i.ibb.co/vQSxqvQ/profile.png" alt="profile"/>
-    <b><p>Jackson_Pot</p></b>
+    <b><p className='profile-text'>Jackson_Pot</p></b>
     <p>$9,493</p>
   </div>
 
   </div>
-  <div class="column1">
-    <div class="card1">
+  <div className="column1">
+    <div className="card1">
     <img className="profile-card-pic" src="https://i.ibb.co/vQSxqvQ/profile.png" alt="profile"/>
-    <b><p>Jim Sechen</p></b>
+    <b><p className='profile-text'>Jim Sechen</p></b>
       <p>$3,652</p>
     </div>
 
   </div>
-  <div class="column1">
-    <div class="card1">
+  <div className="column1">
+    <div className="card1">
     <img className="profile-card-pic" src="https://i.ibb.co/vQSxqvQ/profile.png" alt="profile"/>
-    <b><p>Ida_Chapman</p></b>
+    <b><p className='profile-text'>Ida_Chapman</p></b>
       <p>$3,0652</p>
     </div>
    
@@ -189,7 +189,7 @@ const body = () => {
   <div className='marketplace'>
     <h2>Market place 🔥</h2>
     <div className='market-search'>
-    <input type='text' placeholder='search'/>&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type='text' placeholder='search' className='market-search'/>&nbsp;&nbsp;&nbsp;&nbsp;
     <select name="prices" id="prices">
     <option value="select"><b>Price: Low to High</b></option>
     <option value="2500">$2,500-$1000</option>
@@ -431,7 +431,7 @@ const body = () => {
 <button className='view-all'><i class="fa fa-refresh" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;View all items</button>
 <div class="container1">
     <h1 class="header">Hot Collections</h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://i.ibb.co/wQBg8Cq/line.jpg" alt="line" border="0"/>
+    <img src="https://i.ibb.co/wQBg8Cq/line.jpg" alt="line" border="0" className='line'/>
     <div class="toggle-button left-button"><i className='fas fa-angle-right'></i></div>
     <div class="toggle-button right-button"><i className='fas fa-angle-right'></i></div>&nbsp;&nbsp;
     <button className='viewall'>View All  <i className='fas fa-arrow-right arrow'></i></button>
