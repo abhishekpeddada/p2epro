@@ -39,7 +39,7 @@ const body = () => {
     <div className='final-card'>
       <div className='bid'>
         <p>Current bid</p>
-        <p>0.40ETH</p>
+        <p><i class='fab fa-ethereum'></i>&nbsp;0.40ETH</p>
       </div>
     <div>
       <p>Ending in </p>
@@ -66,7 +66,7 @@ const body = () => {
     <div className='final-card'>
       <div className='bid'>
         <p>Current bid</p>
-        <p>0.40ETH</p>
+        <p><i class='fab fa-ethereum'></i>&nbsp;0.40ETH</p>
       </div>
     <div>
     <p>Ending in </p>
@@ -93,7 +93,7 @@ const body = () => {
       <div className='final-card'>
         <div className='bid'>
           <p>Current bid</p>
-          <p>0.40ETH</p>
+          <p><i class='fab fa-ethereum'></i>&nbsp;0.40ETH</p>
         </div>
         <div>
           <p>Ending in </p>
@@ -120,7 +120,7 @@ const body = () => {
     <div className='final-card'>
       <div className='bid'>
         <p>Current bid</p>
-        <p>0.40ETH</p>
+        <p><i class='fab fa-ethereum'></i>&nbsp;0.40ETH</p>
         </div>
       <div>
         <p>Ending in </p>
@@ -231,7 +231,7 @@ const body = () => {
      <div className='final-card'>
       <div className='bid'>
         <p>Current bid</p>
-        <p>0.40ETH</p>
+        <p><i class='fab fa-ethereum'></i>&nbsp;0.40ETH</p>
       </div>
       <div className='placebid-div'>
        <a href="#" className='placebid'>Place a bid</a>
@@ -259,7 +259,7 @@ const body = () => {
      <div className='final-card'>
       <div className='bid'>
         <p>Current bid</p>
-        <p>0.40ETH</p>
+        <p><i class='fab fa-ethereum'></i>&nbsp;0.40ETH</p>
       </div>
       <div className='placebid-div'>
        <a href="#" className='placebid'>Place a bid</a>
@@ -286,7 +286,7 @@ const body = () => {
      <div className='final-card'>
       <div className='bid'>
         <p>Current bid</p>
-        <p>0.40ETH</p>
+        <p><i class='fab fa-ethereum'></i>&nbsp;0.40ETH</p>
       </div>
       <div className='placebid-div'>
        <a href="#" className='placebid'>Place a bid</a>
@@ -314,7 +314,7 @@ const body = () => {
      <div className='final-card'>
       <div className='bid'>
         <p>Current bid</p>
-        <p>0.40ETH</p>
+        <p><i class='fab fa-ethereum'></i>&nbsp;0.40ETH</p>
       </div>
       <div className='placebid-div'>
        <a href="#" className='placebid'>Place a bid</a>
@@ -341,7 +341,7 @@ const body = () => {
      <div className='final-card'>
       <div className='bid'>
         <p>Current bid</p>
-        <p>0.40ETH</p>
+        <p><i class='fab fa-ethereum'></i>&nbsp;0.40ETH</p>
       </div>
       <div className='placebid-div'>
        <a href="#" className='placebid'>Place a bid</a>
@@ -367,7 +367,7 @@ const body = () => {
      <div className='final-card'>
       <div className='bid'>
         <p>Current bid</p>
-        <p>0.40ETH</p>
+        <p><i class='fab fa-ethereum'></i>&nbsp;0.40ETH</p>
       </div>
       <div className='placebid-div'>
        <a href="#" className='placebid'>Place a bid</a>
@@ -393,7 +393,7 @@ const body = () => {
      <div className='final-card'>
       <div className='bid'>
         <p>Current bid</p>
-        <p>0.40ETH</p>
+        <p><i class='fab fa-ethereum'></i>&nbsp;0.40ETH</p>
       </div>
       <div className='placebid-div'>
        <a href="#" className='placebid'>Place a bid</a>
@@ -419,7 +419,7 @@ const body = () => {
      <div className='final-card'>
       <div className='bid'>
         <p>Current bid</p>
-        <p>0.40ETH</p>
+        <p><i class='fab fa-ethereum'></i>&nbsp;0.40ETH</p>
       </div>
       <div className='placebid-div'>
        <a href="#" className='placebid'>Place a bid</a>
