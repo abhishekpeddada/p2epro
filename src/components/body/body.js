@@ -216,7 +216,7 @@ const body = () => {
   <div className="card">
       <div className='upper-card'>
       <i className="fa fa-user"></i>&nbsp;&nbsp;&nbsp;
-      <h6 className='username'>@GHARLIERA </h6>
+      <h6 className='username'>@GHARLIERA </h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fas fa-ellipsis-h'></i>
       
       </div>
       <img src="https://i.ibb.co/bX0ryKG/card5.png" alt="card5" border="0"/>
@@ -244,7 +244,7 @@ const body = () => {
   <div class="card">
       <div className='upper-card'>
       <i className="fa fa-user"></i>&nbsp;&nbsp;&nbsp;
-      <h6 className='username'>@NeoNart007 </h6>
+      <h6 className='username'>@NeoNart007 </h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fas fa-ellipsis-h'></i>
     
       </div>
      <img src="https://i.ibb.co/vw4jcd6/card6.png" alt="card6" border="0"/>
@@ -272,7 +272,7 @@ const body = () => {
   <div class="card">
       <div className='upper-card'>
       <i className="fa fa-user"></i>&nbsp;&nbsp;&nbsp;
-      <h6 className='username'>@Cariya_FND </h6>
+      <h6 className='username'>@Cariya_FND </h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fas fa-ellipsis-h'></i>
       
       </div>
       <img src="https://i.ibb.co/NFHXBN3/card7.png" alt="card7" border="0"/>
@@ -299,7 +299,7 @@ const body = () => {
   <div class="card">
       <div className='upper-card'>
       <i className="fa fa-user"></i>&nbsp;&nbsp;&nbsp;
-      <h6 className='username'>@jamieturak </h6>
+      <h6 className='username'>@jamieturak </h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fas fa-ellipsis-h'></i>
      
       </div>
       <img src="https://i.ibb.co/bJXr5KY/card8.png" alt="card8" border="0"/>
@@ -328,14 +328,13 @@ const body = () => {
   <div className="card">
       <div className='upper-card'>
       <i className="fa fa-user"></i>&nbsp;&nbsp;&nbsp;
-      <h6 className='username'>@Panichthearch </h6>
-      <i class='fa fa-heart heart'></i> 
+      <h6 className='username'>@Panichthearch </h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fas fa-ellipsis-h'></i>
       </div>
       <img src="https://i.ibb.co/884zzdZ/card9.png" alt="card9" border="0"/>
       <div className='lower-card'>
       <div className='lower'>
      <i className="fa fa-user"></i>&nbsp;&nbsp;&nbsp;
-      <p className='lower-card-text'>Crypto Zombies</p>
+      <p className='lower-card-text'>Crypto Zombies</p><i class='fa fa-heart heart'></i> 
       </div>
       <h5 className='lower-card-text'>Ginsberg Lorem Epsum</h5>
      </div>
@@ -355,14 +354,13 @@ const body = () => {
   <div class="card">
       <div className='upper-card'>
       <i className="fa fa-user"></i>&nbsp;&nbsp;&nbsp;
-      <h6 className='username'>@Kinetic Graphics </h6>
-      <i class='fa fa-heart heart'></i> 
+      <h6 className='username'>@Kinetic Graphics </h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fas fa-ellipsis-h'></i>
       </div>
       <img src="https://i.ibb.co/FsSLwZm/card10.png" alt="card10" border="0"/>
       <div className='lower-card'>
       <div className='lower'>
      <i className="fa fa-user"></i>&nbsp;&nbsp;&nbsp;
-      <p className='lower-card-text'>Meta Queens</p>
+      <p className='lower-card-text'>Meta Queens</p><i class='fa fa-heart heart'></i> 
       </div>
       <h5 className='lower-card-text'>Twist with a twist</h5>
      </div>
@@ -382,14 +380,13 @@ const body = () => {
   <div class="card">
       <div className='upper-card'>
       <i className="fa fa-user"></i>&nbsp;&nbsp;&nbsp;
-      <h6 className='username'>@Sue_Shei07 </h6>
-      <i class='fa fa-heart heart'></i> 
+      <h6 className='username'>@Sue_Shei07 </h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fas fa-ellipsis-h'></i>
       </div>
       <img src="https://i.ibb.co/gmrpVry/card11.png" alt="card11" border="0"/>
      <div className='lower-card'>
       <div className='lower'>
      <i className="fa fa-user"></i>&nbsp;&nbsp;&nbsp;
-      <p className='lower-card-text'>Camoi's Toy</p>
+      <p className='lower-card-text'>Camoi's Toy</p><i class='fa fa-heart heart'></i> 
       </div>
       <h5 className='lower-card-text'>Sound of silence</h5>
      </div>
@@ -409,14 +406,13 @@ const body = () => {
   <div class="card">
       <div className='upper-card'>
       <i className="fa fa-user"></i>&nbsp;&nbsp;&nbsp;
-      <h6 className='username'>@jamieturak </h6>
-      <i class='fa fa-heart heart'></i> 
+      <h6 className='username'>@jamieturak </h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fas fa-ellipsis-h'></i>
       </div>
       <img src="https://i.ibb.co/KqdTYwF/card12.png" alt="card12" border="0"/>
       <div className='lower-card'>
       <div className='lower'>
      <i className="fa fa-user"></i>&nbsp;&nbsp;&nbsp;
-      <p className='lower-card-text'>Chronicles Art</p>
+      <p className='lower-card-text'>Chronicles Art</p><i class='fa fa-heart heart'></i> 
       </div>
       <h5 className='lower-card-text'>Robert Generation</h5>
      </div>

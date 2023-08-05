@@ -30,19 +30,19 @@ function Footer() {
           <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
             <h6 className="text-uppercase mb-4 font-weight-bold">Market Place</h6>
             <p>
-              <a>Profile</a>
+              <a href="#" className="market-anc">Profile</a>
             </p>
             <p>
-              <a>Market Place</a>
+              <a href="#" className="market-anc">Market Place</a>
             </p>
             <p>
-              <a>Creators</a>
+              <a href="#" className="market-anc">Creators</a>
             </p>
             <p>
-              <a>Activity</a>
+              <a href="#" className="market-anc">Activity</a>
             </p>
             <p>
-              <a>Collections</a>
+              <a href="#" className="market-anc">Collections</a>
             </p>
           </div>
 
