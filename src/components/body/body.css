@@ -45,13 +45,20 @@
     display: flex;
     width: 250px;
   }
-
+  .card:hover{
+    transform: rotateZ(-2deg);
+    border: 3px solid black;
+  }
   .card1 {
     background-color: #ddd;
     margin-left: 120px;
     width: 150px;
     height: 200px;
   }
+.card1:hover > .profile-card-pic {
+  width: 100px;
+  height: 100px;
+}
 
 .header{
     text-align:left;
@@ -345,8 +352,6 @@
 .card3:hover{
   border: 3px solid blue;
   transform: rotateZ(-2deg);
-  transform: rotateX(10deg);
-  transform: rotateY(-20deg);
 }
 .card3-img{
 margin-top: 20px;
