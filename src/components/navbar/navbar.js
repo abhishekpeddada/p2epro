@@ -1,13 +1,7 @@
 import React, { useState } from 'react';
 import './navbar.css'; // Create a separate CSS file for styling
 
-const Navbar = () => {
-  const [darkMode, setDarkMode] = useState(false);
-
-  const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
-  };
-
+const Navbar = ({ darkMode, onToggleDarkMode }) => {
   return (
     <nav className={`navbar ${darkMode ? 'dark' : 'light'}`}>
       <div className="navbar-left">
@@ -52,7 +46,7 @@ const Navbar = () => {
   </div>
   <a href="#home">contact</a>
 </div> 
-<input type="checkbox" id="checkbox" onClick={toggleDarkMode} />
+<input type="checkbox" id="checkbox" onClick={onToggleDarkMode} />
         <div >
    <img className="profile-pic" src="https://i.ibb.co/vQSxqvQ/profile.png" alt="profile"/>
         </div>
