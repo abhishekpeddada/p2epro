@@ -472,6 +472,35 @@ const body = () => {
   <h3><b>Mint,Buy and Sell</b> </h3>
   <h3><b>or just launch your own NFT store</b></h3>
 </div>
+<div>
+<div class="final-row-container">
+  <div class="final-column">
+    <div class="card3">
+    <img src="https://i.ibb.co/WVb2km9/final1.png" alt="final1" border="0" className='card3-img'/>
+      <p><b>Buy and sell your</b></p>
+      <p><b>NFTs</b></p>
+    </div>
+  </div>
+
+  <div class="final-column">
+    <div class="card3">
+    <img src="https://i.ibb.co/HrybB1v/final2.png" alt="final2" border="0" className='card3-img'/>
+      <p><b>Discover</b></p>
+      <p><b>top artists & creators</b></p>
+      <p>Explore beautiful digital art by talented artists</p>
+      <p>around the world.</p>
+    </div>
+  </div>
+  
+  <div class="final-column">
+    <div class="card3">
+    <img src="https://i.ibb.co/z7nSR3q/final3.png" alt="final3" className='card3-img' border="0"/>
+      <p><b>Earn money by trading</b></p>
+      <p><b>NFTs</b></p>
+    </div>
+  </div>
+</div>
+</div>
 </div>
   )
 }
