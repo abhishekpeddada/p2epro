@@ -67,13 +67,46 @@ const body = () => {
                   <h6 className='username'>@GHARLIERA </h6>
                   <i class='fa fa-heart heart'></i>
                 </div>
-                <img src="https://i.ibb.co/J25j803/card1.png" alt="card1" />
+                <img src="https://i.ibb.co/2dn8JGD/card2.png" alt="card2" border="0" />
+                <div className='lower-card'>
+                  <div className='lower'>
+                    <i className="fa fa-user"></i>&nbsp;&nbsp;&nbsp;
+                    <p className='lower-card-text'>@kuraja</p>
+                  </div>
+                  <h5 className='lower-card-text'>Way Back To Home</h5>
+                </div>
+                <div className='final-card'>
+                  <div className='bid'>
+                    <p>Current bid</p>
+                    <p><i class='fab fa-ethereum'></i>&nbsp;0.40ETH</p>
+                  </div>
+                  <div>
+                    <p>Ending in </p>
+                    <p>07h 34m 34s</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="column">
+              <div className="card">
+              </div>
+            </div>
+          </div>
+          <div className="carousel-row">
+            <div className="column">
+              <div class="card">
+                <div className='upper-card'>
+                  <i className="fa fa-user"></i>&nbsp;&nbsp;&nbsp;
+                  <h6 className='username'>@GHARLIERA </h6>
+                  <i class='fa fa-heart heart'></i>
+                </div>
+                <img src="https://i.ibb.co/bF8FFh0/card3.png" alt="card3" border="0" />
                 <div className='lower-card'>
                   <div className='lower'>
                     <i className="fa fa-user"></i>&nbsp;&nbsp;&nbsp;
                     <p className='lower-card-text'>Special suprise</p>
                   </div>
-                  <h5 className='lower-card-text'>Way Back To Home</h5>
+                  <h5 className='lower-card-text'>#025-Cow Boy</h5>
                 </div>
                 <div className='final-card'>
                   <div className='bid'>
@@ -100,46 +133,13 @@ const body = () => {
                   <h6 className='username'>@GHARLIERA </h6>
                   <i class='fa fa-heart heart'></i>
                 </div>
-                <img src="https://i.ibb.co/2dn8JGD/card2.png" alt="card2" border="0" />
+                <img src="https://i.ibb.co/kxXkmFY/card4.png" alt="card4" border="0" />
                 <div className='lower-card'>
                   <div className='lower'>
                     <i className="fa fa-user"></i>&nbsp;&nbsp;&nbsp;
-                    <p className='lower-card-text'>@kuraja</p>
+                    <p className='lower-card-text'>Special suprise</p>
                   </div>
-                  <h5 className='lower-card-text'>Way Back To Home</h5>
-                </div>
-                <div className='final-card'>
-                  <div className='bid'>
-                    <p>Current bid</p>
-                    <p><i class='fab fa-ethereum'></i>&nbsp;0.40ETH</p>
-                  </div>
-                  <div>
-                    <p>Ending in </p>
-                    <p>07h 34m 34s</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="column">
-              <div className="card">
-              </div>
-            </div>
-          </div>
-          <div className="carousel-row">
-            <div className="column">
-              <div class="card">
-                <div className='upper-card'>
-                  <i className="fa fa-user"></i>&nbsp;&nbsp;&nbsp;
-                  <h6 className='username'>@GHARLIERA </h6>
-                  <i class='fa fa-heart heart'></i>
-                </div>
-                <img src="https://i.ibb.co/2dn8JGD/card2.png" alt="card2" border="0" />
-                <div className='lower-card'>
-                  <div className='lower'>
-                    <i className="fa fa-user"></i>&nbsp;&nbsp;&nbsp;
-                    <p className='lower-card-text'>@kuraja</p>
-                  </div>
-                  <h5 className='lower-card-text'>Way Back To Home</h5>
+                  <h5 className='lower-card-text'>Pretty Mundane</h5>
                 </div>
                 <div className='final-card'>
                   <div className='bid'>
@@ -300,8 +300,8 @@ const body = () => {
             <div className="column">
               <div className="card1">
                 <img className="profile-card-pic" src="https://i.ibb.co/vQSxqvQ/profile.png" alt="profile" />
-                <b><p className='profile-text'>Jim Sechen</p></b>
-                <p>$1,954</p>
+                <b><p className='profile-text'>Jackson_pot</p></b>
+                <p>$9,493</p>
               </div>
             </div>
             <div className="column">
@@ -314,8 +314,8 @@ const body = () => {
             <div className="column">
               <div className="card1">
                 <img className="profile-card-pic" src="https://i.ibb.co/vQSxqvQ/profile.png" alt="profile" />
-                <b><p className='profile-text'>Jim Sechen</p></b>
-                <p>$1,954</p>
+                <b><p className='profile-text'>Ravi_O'Leigh</p></b>
+                <p>$2,008</p>
               </div>
             </div>
             <div className="column">
@@ -328,8 +328,8 @@ const body = () => {
             <div className="column">
               <div className="card1">
                 <img className="profile-card-pic" src="https://i.ibb.co/vQSxqvQ/profile.png" alt="profile" />
-                <b><p className='profile-text'>Jim Sechen</p></b>
-                <p>$1,954</p>
+                <b><p className='profile-text'>Sue_Shei07</p></b>
+                <p>$12,067</p>
               </div>
             </div>
             <div className="column">
@@ -454,20 +454,20 @@ const body = () => {
           </div>
           <div className="carousel-row">
             <div className="column">
-              <div className="card">
+              <div class="card">
                 <div className='upper-card'>
                   <i className="fa fa-user"></i>&nbsp;&nbsp;&nbsp;
-                  <h6 className='username'>@GHARLIERA </h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fas fa-ellipsis-h'></i>
+                  <h6 className='username'>@NeoNart007 </h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fas fa-ellipsis-h'></i>
 
                 </div>
-                <img src="https://i.ibb.co/bX0ryKG/card5.png" alt="card5" border="0" />
+                <img src="https://i.ibb.co/vw4jcd6/card6.png" alt="card6" border="0" />
                 <div className='lower-card'>
                   <div className='lower'>
                     <i className="fa fa-user"></i>&nbsp;&nbsp;&nbsp;
-                    <p className='lower-card-text'>Special suprise</p>
+                    <p className='lower-card-text'>Anime-Art</p>
                     <i class='fa fa-heart heart'></i>
                   </div>
-                  <h5 className='lower-card-text'>Geometrical Figure</h5>
+                  <h5 className='lower-card-text'>Floating Mgadows</h5>
                 </div>
                 <div className='final-card'>
                   <div className='bid'>
@@ -487,20 +487,19 @@ const body = () => {
           </div>
           <div className="carousel-row">
             <div className="column">
-              <div className="card">
+              <div class="card">
                 <div className='upper-card'>
                   <i className="fa fa-user"></i>&nbsp;&nbsp;&nbsp;
-                  <h6 className='username'>@GHARLIERA </h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fas fa-ellipsis-h'></i>
+                  <h6 className='username'>@Cariya_FND </h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fas fa-ellipsis-h'></i>
 
                 </div>
-                <img src="https://i.ibb.co/bX0ryKG/card5.png" alt="card5" border="0" />
+                <img src="https://i.ibb.co/NFHXBN3/card7.png" alt="card7" border="0" />
                 <div className='lower-card'>
                   <div className='lower'>
                     <i className="fa fa-user"></i>&nbsp;&nbsp;&nbsp;
-                    <p className='lower-card-text'>Special suprise</p>
-                    <i class='fa fa-heart heart'></i>
+                    <p className='lower-card-text'>Masterkids</p><i class='fa fa-heart heart'></i>
                   </div>
-                  <h5 className='lower-card-text'>Geometrical Figure</h5>
+                  <h5 className='lower-card-text'>Abstract Figure</h5>
                 </div>
                 <div className='final-card'>
                   <div className='bid'>
@@ -521,20 +520,20 @@ const body = () => {
           </div>
           <div className="carousel-row">
             <div className="column">
-              <div className="card">
+              <div class="card">
                 <div className='upper-card'>
                   <i className="fa fa-user"></i>&nbsp;&nbsp;&nbsp;
-                  <h6 className='username'>@GHARLIERA </h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fas fa-ellipsis-h'></i>
+                  <h6 className='username'>@jamieturak </h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class='fas fa-ellipsis-h'></i>
 
                 </div>
-                <img src="https://i.ibb.co/bX0ryKG/card5.png" alt="card5" border="0" />
+                <img src="https://i.ibb.co/bJXr5KY/card8.png" alt="card8" border="0" />
                 <div className='lower-card'>
                   <div className='lower'>
                     <i className="fa fa-user"></i>&nbsp;&nbsp;&nbsp;
-                    <p className='lower-card-text'>Special suprise</p>
+                    <p className='lower-card-text'>Foundation</p>
                     <i class='fa fa-heart heart'></i>
                   </div>
-                  <h5 className='lower-card-text'>Geometrical Figure</h5>
+                  <h5 className='lower-card-text'>Robot Generation</h5>
                 </div>
                 <div className='final-card'>
                   <div className='bid'>
