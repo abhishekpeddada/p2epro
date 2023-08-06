@@ -89,6 +89,8 @@ function Footer() {
             </div>
           </section>
         </div>
+        <hr/>
+        <div className="copyright">Copyright &copy; 2022. Created with love by <a href="#" className="copy-anchor">P2E Pro NFT</a> </div>
       </footer>
     </div>
   );

@@ -68,3 +68,12 @@ a {
 .market-anc {
   text-decoration: none;
 }
+.copyright{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.copy-anchor{
+  text-decoration: none;
+  color: blue;
+}
