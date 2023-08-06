@@ -502,6 +502,11 @@
   .card {
     margin: 0px -30px;
   }
+}
 
-
+.carousel-row {
+  border: none;
+}
+.carousel .control-dots {
+  display: none;
 }

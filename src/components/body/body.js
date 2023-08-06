@@ -25,7 +25,7 @@ const body = () => {
         <button className='viewall'>View All<i className='fas fa-arrow-right arrow'></i></button>
       </div>
       {isMobile ? (
-        <Carousel showArrows={true} showThumbs={false} autoPlay={true} infiniteLoop={true}>
+        <Carousel showArrows={true} showThumbs={false} autoPlay={true} showStatus={false} infiniteLoop={true}>
           <div className="carousel-row">
             <div className="column">
               <div class="card">
@@ -281,7 +281,7 @@ const body = () => {
         <button className='viewall'>View All  <i className='fas fa-arrow-right arrow'></i></button>
       </div>
       {isMobile ? (
-        <Carousel showArrows={true} showThumbs={false} autoPlay={true} infiniteLoop={true}>
+        <Carousel showArrows={true} showThumbs={false} autoPlay={true} showStatus={false} infiniteLoop={true}>
           <div className="carousel-row">
             <div className="column">
               <div className="card1">
@@ -418,7 +418,7 @@ const body = () => {
       </div>
 
       {isMobile ? (
-        <Carousel showArrows={true} showThumbs={false} autoPlay={true} infiniteLoop={true}>
+        <Carousel showArrows={true} showThumbs={false} autoPlay={true} showStatus={false} infiniteLoop={true}>
           <div className="carousel-row">
             <div className="column">
               <div className="card">
