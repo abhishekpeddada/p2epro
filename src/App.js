@@ -11,9 +11,9 @@ function App() {
   };
   return (
     <div className={`App ${darkMode ? 'dark' : 'light'}`}>
-      <Navbar darkMode={darkMode} onToggleDarkMode={handleToggleDarkMode}/>
-      <Body/>
-      <Footer/>
+      <Navbar darkMode={darkMode} onToggleDarkMode={handleToggleDarkMode} />
+      <Body />
+      <Footer />
     </div>
   );
 }

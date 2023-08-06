@@ -1,259 +1,263 @@
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    background-color: white;
-  }
-  #myTopnav{
-    display: none;
-  }
-  .navbar-left {
-    display: flex;
-    align-items: center;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+}
+
+#myTopnav {
+  display: none;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.company-logo {
+  margin-right: 20px;
+}
+
+.search-bar {
+  width: 200px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-container {
+  position: relative;
+  margin-right: 20px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  list-style: none;
+  padding: 0;
+}
+
+.dropdown-menu li {
+  padding: 10px;
+}
+
+.dark-mode-toggle {
+  margin-right: 20px;
+}
+
+.profile-pic {
+  width: 60px;
+  height: 60px;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.login-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+.dark .search-bar {
+  border-color: #777;
+}
+
+.dark .dropdown-menu {
+  background-color: #444;
+  color: #fff;
+}
+
+.dark .login-button {
+  background-color: #17a2b8;
+}
+
+.dark-mode-toggle {
+  position: relative;
+  margin-right: 20px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+body.dark {
+  background: #303030;
+}
+
+#checkbox {
+  position: relative;
+  appearance: none;
+  outline: none;
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+  background: #c3c3c3;
+  box-shadow: none;
+  cursor: pointer;
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
+}
+
+#checkbox:checked {
+  background: #8000c9;
+}
+
+#checkbox::before {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  border-radius: inherit;
+  width: 36px;
+  height: 36px;
+  background: #ffff00;
+  transition: inherit;
+}
+
+#checkbox::after {
+  content: '';
+  position: absolute;
+  top: -6px;
+  right: calc(100% + 36px);
+  border-radius: inherit;
+  width: 36px;
+  height: 36px;
+  background: #c3c3c3;
+  transition: inherit;
+}
+
+#checkbox:checked::before {
+  left: calc(100% - 38px);
+  background: #cccccc;
+}
+
+#checkbox:checked::after {
+  right: 12px;
+  background: #8000c9;
+}
+
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  width: 250px;
+}
+
+.search-bar input {
+  flex: 1;
+  border: none;
+  outline: none;
+}
+
+.search-bar i {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
   .company-logo {
-    margin-right: 20px;
-  }
-  
-  .search-bar {
-    width: 200px;
-    height: 30px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .navbar-right {
-    display: flex;
-    align-items: center;
-  }
-  
-  .dropdown-container {
-    position: relative;
-    margin-right: 20px;
-  }
-  
-  .dropdown-menu {
-    position: absolute;
-    top: 30px;
-    left: 0;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    list-style: none;
-    padding: 0;
-  }
-  
-  .dropdown-menu li {
-    padding: 10px;
-  }
-  
-  .dark-mode-toggle {
-    margin-right: 20px;
-  }
-  
-  .profile-pic {
-    width: 60px;
-    height: 60px;
-    background-color: #ccc;
-    border-radius: 50%;
     margin-right: 10px;
   }
-  
-  .login-button {
-    padding: 8px 16px;
-    border: none;
-    border-radius: 5px;
-    background-color: #007bff;
-    color: #fff;
-    cursor: pointer;
-  }
-  
-  
-  .dark .search-bar {
-    border-color: #777;
-  }
-  
-  .dark .dropdown-menu {
-    background-color: #444;
-    color: #fff;
-  }
-  
-  .dark .login-button {
-    background-color: #17a2b8;
-  }
-  
-.dark-mode-toggle {
-    position: relative;
-    margin-right: 20px;
-  }
-  
-  .icon {
-    width: 24px;
-    height: 24px;
-    background-size: cover;
-    background-position: center;
-  }
-  
-.navbar a {
-    float: left;
-    font-size: 16px;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  .dropdown {
-    float: left;
-    overflow: hidden;
-  }
-  
-  .dropdown .dropbtn {
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color: black;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit; 
-    margin: 0; 
-  }
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .dropdown-content a:hover {
-    background-color: #ddd;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
-  body.dark {
-    background: #303030;
-  }
-  
-  #checkbox {
-    position: relative;
-    appearance: none;
-    outline: none;
-    width: 80px;
-    height: 40px;
-    border-radius: 20px;
-    background: #c3c3c3;
-    box-shadow: none;
-    cursor: pointer;
-    overflow: hidden;
-    transition: 0.3s ease-in-out;
-  }
-  
-  #checkbox:checked {
-    background: #8000c9;
-  }
-  
-  #checkbox::before {
-    content: '';
-    position: absolute;
-    top: 2px;
-    left: 2px;
-    border-radius: inherit;
-    width: 36px;
-    height: 36px;
-    background: #ffff00;
-    transition: inherit;
-  }
-  
-  #checkbox::after {
-    content: '';
-    position: absolute;
-    top: -6px;
-    right: calc(100% + 36px);
-    border-radius: inherit;
-    width: 36px;
-    height: 36px;
-    background: #c3c3c3;
-    transition: inherit;
-  }
-  
-   #checkbox:checked::before {
-    left: calc(100% - 38px);
-    background: #cccccc;
-  }
-  
-   #checkbox:checked::after {
-    right: 12px;
-    background: #8000c9;
-  }
-
 
   .search-bar {
+    width: 150px;
+  }
+
+  .navbar-right {
+    display: none;
+  }
+
+  #myTopnav {
     display: flex;
-    align-items: center;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .navbar {
+    flex-direction: column;
     padding: 5px;
-    width: 250px;
   }
-  
-  .search-bar input {
-    flex: 1;
-    border: none;
-    outline: none;
+
+  .navbar-left {
+    margin-bottom: 10px;
   }
-  
-  .search-bar i {
-    margin-left: 5px;
-    cursor: pointer;
+
+  .company-logo {
+    margin-right: 0;
   }
-  
-  @media screen and (max-width: 768px) {
-    .company-logo {
-      margin-right: 10px;
-    }
-  
-    .search-bar {
-      width: 150px;
-    }
-  
-    .navbar-right {
-      display: none;
-    }
-    #myTopnav{
-      display: flex;
-    }
+
+  .search-bar {
+    width: 100%;
   }
-  
-  @media screen and (max-width: 576px) {
-    .navbar {
-      flex-direction: column;
-      padding: 5px;
-    }
-  
-    .navbar-left {
-      margin-bottom: 10px;
-    }
-  
-    .company-logo {
-      margin-right: 0;
-    }
-  
-    .search-bar {
-      width: 100%;
-    }
-  }
+}
